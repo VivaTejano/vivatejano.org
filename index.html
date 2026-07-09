@@ -1,58 +1,227 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Viva Tejano Cultural Arts Foundation</title><meta name="description" content="Preserving Tejano history, one story at a time.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viva Tejano Cultural Arts Foundation</title>
+  <meta name="description" content="Preserving Tejano history, one story at a time.">
+  <meta property="og:title" content="Viva Tejano Cultural Arts Foundation">
+  <meta property="og:description" content="Preserving Tejano history, one story at a time.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vivatejano.org/">
+  <meta property="og:image" content="https://vivatejano.org/assets/images/hero-crowd.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-<header class="site-header">
-  <div class="container nav">
-    <a class="brand" href="index.html" aria-label="Viva Tejano home"><img src="assets/logos/viva-tejano-logo.png" alt="Viva Tejano Cultural Arts Foundation logo"><span>Cultural Arts Foundation</span></a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
-    <nav class="nav-links" id="nav-links" aria-label="Primary navigation">
-      <a href="index.html">Home</a><a href="about.html">About</a><a href="documentation-day.html">Documentation Day</a><a href="vision.html">Our Vision</a><a href="leadership.html">Leadership</a><a href="contact.html">Contact</a>
+<body class="home">
+
+<header class="site-header" data-header>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="nav-wrap">
+    <a class="brand-mark" href="index.html" aria-label="Viva Tejano Cultural Arts Foundation Home">
+      <img src="assets/logos/primary-logo-transparent.png" alt="Viva Tejano Cultural Arts Foundation">
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+      <span>Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="documentation-day.html">Documentation Day</a>
+      <a href="vision.html">Our Vision</a>
+      <a href="leadership.html">Leadership</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </div>
 </header>
-<main>
-<section class="hero">
-  <img src="assets/images/hero-sunny-crowd.jpg" alt="A Tejano music legend addressing a large festival crowd from the stage">
-  <div class="container hero-content fade-in">
-    <p class="eyebrow">Viva Tejano Cultural Arts Foundation</p>
+
+<main id="main">
+
+<section class="hero home-hero" aria-label="Homepage introduction">
+  <img class="hero-bg" src="assets/images/hero-crowd.jpg" alt="A Tejano music artist addressing a large festival crowd from the stage">
+  <div class="hero-shade"></div>
+  <div class="hero-content reveal">
+    <img class="hero-logo" src="assets/logos/primary-logo-transparent.png" alt="Viva Tejano Cultural Arts Foundation">
+    <p class="kicker">San Antonio, Texas</p>
     <h1>Preserving Tejano history, one story at a time.</h1>
-    <p class="tag">Documenting the music, stories, photographs, recordings, and people who shaped Tejano history for future generations.</p>
-    <div class="hero-actions"><a class="btn gold" href="documentation-day.html">Documentation Day</a><a class="btn ghost" href="about.html">Learn Our Mission</a></div>
+    <p class="hero-copy">Documenting the music, stories, photographs, recordings, and people who shaped Tejano history for future generations.</p>
+    <div class="hero-actions">
+      <a class="btn btn-gold" href="documentation-day.html">Documentation Day</a>
+      <a class="btn btn-outline" href="contact.html">Share Your Story</a>
+    </div>
   </div>
 </section>
-<div class="notice-strip"><div class="container"><span><strong>Viva Tejano Musician Documentation Day</strong> · July 26 · 2–7 PM · Guadalupe Theater</span><a href="documentation-day.html">Details →</a></div></div>
-<section class="section"><div class="container intro-grid">
-  <div class="fade-in"><p class="eyebrow">Why We Exist</p><h2>Every family album holds a piece of history.</h2><p class="lead">Somewhere in a closet, attic, garage, or photo album is a photograph, concert poster, recording, or story that deserves to be preserved. Viva Tejano exists to make sure those memories are not lost to time.</p><p>Our first public initiative invites musicians, families, collectors, photographers, promoters, and fans to help preserve the visual and oral history of Tejano music.</p></div>
-  <figure class="photo-frame fade-in"><img src="assets/images/dancehall-crowd.jpg" alt="Historic dance hall filled with people dancing to live Tejano music"><figcaption class="caption">Tejano music has always lived in community: dance halls, stages, family celebrations, and shared memory.</figcaption></figure>
-</div></section>
-<section class="section navy-section"><div class="container intro-grid">
-  <div class="fade-in"><p class="eyebrow">Why Now?</p><h2>The stories are still here. The time to preserve them is now.</h2><p>The pioneers who built Tejano music are still with us, but time is precious. Every interview, photograph, poster, recording, and memory preserved today helps future generations understand the people who shaped this cultural tradition.</p></div>
-  <figure class="photo-frame fade-in"><img src="assets/images/vintage-sax-section.jpg" alt="Vintage black and white photo of saxophone players on stage"><figcaption class="caption">Historic photographs help identify musicians, venues, instruments, eras, and the communities that sustained the music.</figcaption></figure>
-</div></section>
-<section class="section" id="documentation-day"><div class="container">
-  <div class="event-card fade-in"><img src="assets/images/recording-session.jpg" alt="Musicians recording and documenting Tejano music in a studio"><div class="event-body"><p class="eyebrow">First Public Initiative</p><h2>Viva Tejano Musician Documentation Day</h2><p>Bring photographs, posters, recordings, programs, memorabilia, and stories. Our goal is to begin documenting the people, families, and memories that shaped Tejano music.</p><div class="event-meta"><div class="meta-box"><span>Date</span><strong>July 26</strong></div><div class="meta-box"><span>Time</span><strong>2–7 PM</strong></div><div class="meta-box"><span>Location</span><strong>Guadalupe Theater</strong></div></div><a class="btn dark" href="#">Registration Coming Soon</a><div class="bring-grid"><div class="bring">Photos</div><div class="bring">Posters</div><div class="bring">Records</div><div class="bring">Stories</div></div></div></div>
-</div></section>
-<section class="section"><div class="container"><p class="eyebrow">Mission</p><h2>Preserve. Document. Educate. Inspire.</h2><div class="pillars fade-in"><article class="pillar"><img src="assets/images/gilbert-deanda-tejano-brass.jpg" alt="Gilbert DeAnda and the Tejano Brass publicity photo"><div><h3>Preserve</h3><p>Protect photographs, recordings, posters, programs, and other cultural materials.</p></div></article><article class="pillar"><img src="assets/images/studio-duo.jpg" alt="Two musicians recording music in a studio"><div><h3>Document</h3><p>Capture names, places, dates, memories, and oral histories while they can still be told.</p></div></article><article class="pillar"><img src="assets/images/young-artists.jpg" alt="Young Tejano artists performing on stage"><div><h3>Educate</h3><p>Create resources that help students and communities understand Tejano cultural history.</p></div></article><article class="pillar"><img src="assets/images/modern-performance.jpg" alt="Modern Tejano band performing on stage"><div><h3>Inspire</h3><p>Connect today’s artists and audiences to the legacy they carry forward.</p></div></article></div></div></section>
-<section class="section navy-section"><div class="container"><p class="eyebrow">History Lives Here</p><h2>From personal archives to public memory.</h2><div class="exhibit fade-in"><figure class="large"><img src="assets/images/jimmy-gonzalez.jpg" alt="Jimmy Gonzalez of Grupo Mazz smiling while playing guitar"><figcaption><h3>Jimmy Gonzalez</h3><p>A candid performance photograph preserves more than an image. It preserves presence, sound, and memory.</p></figcaption></figure><figure><img src="assets/images/rainbow-ballroom-poster.jpg" alt="Vintage Rainbow Ballroom Fresno Tejano concert poster"><figcaption><h3>Posters & Flyers</h3><p>Printed materials tell the story of venues, promoters, cities, and audiences.</p></figcaption></figure><figure><img src="assets/images/latin-breed-mission.jpg" alt="The Latin Breed posed at a historic mission"><figcaption><h3>Artists & Places</h3><p>Each photograph connects musicians to a time, a place, and a community.</p></figcaption></figure><figure class="large"><img src="assets/images/laura-canales.jpg" alt="Vintage promotional image of Laura Canales"><figcaption><h3>Women of Tejano</h3><p>The archive will honor the artists, families, and leaders whose stories deserve to be preserved.</p></figcaption></figure></div></div></section>
-<section class="section"><div class="container intro-grid"><div class="fade-in"><p class="eyebrow">Our Vision</p><h2>Building the future home of Tejano history.</h2><p class="lead">Documentation Day is the first step toward a larger vision: a digital archive, oral history collection, educational programs, community events, and a permanent cultural home for Tejano music.</p><a class="btn dark" href="vision.html">Read the Vision</a></div><div class="quote-block fade-in"><h3>Our Promise</h3><p>We believe every photograph deserves a name, every musician deserves a story, every family deserves to know its history, and every generation deserves access to its cultural heritage.</p></div></div></section>
-</main>
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div><img src="assets/logos/viva-tejano-logo.png" alt="Viva Tejano Cultural Arts Foundation logo"><p>Preserving Tejano history, one story at a time.</p><p><strong>Email:</strong> <a href="mailto:info@vivatejano.org">info@vivatejano.org</a></p></div>
-      <div><h3>Explore</h3><div class="footer-links"><a href="about.html">About</a><a href="documentation-day.html">Documentation Day</a><a href="vision.html">Our Vision</a><a href="leadership.html">Leadership</a></div></div>
-      <div><h3>Connect</h3><div class="footer-links"><a href="https://www.facebook.com/vivatejanofoundation">Facebook</a><a href="https://www.instagram.com/vivatejanofoundation">Instagram</a><a href="photo-rights.html">Photo Rights</a><a href="privacy.html">Privacy</a></div></div>
+
+<section class="status-strip">
+  <div class="wrap status-inner">
+    <strong>Viva Tejano Musician Documentation Day</strong>
+    <span>Our inaugural event is currently full. Check back for the next date.</span>
+    <a href="documentation-day.html">Details</a>
+  </div>
+</section>
+
+<section class="section story-section">
+  <div class="wrap two-col">
+    <div class="copy reveal">
+      <p class="eyebrow">Why We Exist</p>
+      <h2>Every family album holds a piece of history.</h2>
+      <p class="lead">Somewhere in a closet, attic, garage, or photo album is a photograph, concert poster, recording, or story that deserves to be preserved.</p>
+      <p>Viva Tejano Cultural Arts Foundation exists to make sure those memories are not lost to time. Our work begins with documentation: identifying people, preserving images, recording stories, and building the foundation for a future digital archive.</p>
     </div>
-    <div class="legal">© 2026 Viva Tejano Cultural Arts Foundation. All Rights Reserved.<br>Viva Tejano Cultural Arts Foundation is a Texas nonprofit corporation currently seeking recognition as a tax-exempt organization under Section 501(c)(3) of the Internal Revenue Code. Donations are not currently being solicited as tax-deductible contributions.</div>
+    <figure class="feature-photo reveal">
+      <img src="assets/images/dancehall-crowd.jpg" alt="Historic dance hall filled with people dancing to live Tejano music">
+      <figcaption>Tejano music has always lived in community: dance halls, stages, family celebrations, and shared memory.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section navy-section">
+  <div class="wrap two-col reverse">
+    <figure class="feature-photo reveal">
+      <img src="assets/images/vintage-sax.jpg" alt="Vintage black and white performance photo of saxophone players on stage">
+      <figcaption>Historic photographs help identify musicians, venues, instruments, and the communities that sustained the music.</figcaption>
+    </figure>
+    <div class="copy reveal">
+      <p class="eyebrow">Why Now?</p>
+      <h2>The stories are still here. The time to preserve them is now.</h2>
+      <p class="lead">Every year, irreplaceable photographs, recordings, posters, and memories disappear. Many of the musicians and pioneers who shaped Tejano music are still with us today.</p>
+      <p>By documenting their stories now, we preserve them for future generations.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section documentation-feature" id="documentation-day">
+  <div class="wrap event-panel reveal">
+    <div class="event-image">
+      <img src="assets/images/documentation-studio.jpg" alt="Musicians documenting music and stories in a studio">
+    </div>
+    <div class="event-copy">
+      <p class="eyebrow">First Public Initiative</p>
+      <h2>Viva Tejano Musician Documentation Day</h2>
+      <div class="full-badge">Our inaugural Documentation Day is currently full.</div>
+      <p>We are grateful for the overwhelming response from the community. Additional Documentation Days are already being planned.</p>
+      <div class="event-meta" aria-label="Event details">
+        <div><span>Date</span><strong>July 26</strong></div>
+        <div><span>Time</span><strong>2–7 PM</strong></div>
+        <div><span>Location</span><strong>Guadalupe Theater</strong></div>
+      </div>
+      <a class="btn btn-dark" href="contact.html">Notify Me About the Next Date</a>
+      <div class="preserve-list" aria-label="Materials to preserve">
+        <span>Photographs</span><span>Posters</span><span>Records</span><span>Programs</span><span>Stories</span><span>Memorabilia</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section mission-section">
+  <div class="wrap">
+    <div class="section-heading reveal">
+      <p class="eyebrow">Mission</p>
+      <h2>Preserve. Document. Educate. Inspire.</h2>
+    </div>
+    <div class="pillar-grid">
+      <article class="pillar reveal">
+        <img src="assets/images/gilbert-deanda.jpg" alt="Gilbert DeAnda and The Tejano Brass publicity photograph">
+        <h3>Preserve</h3>
+        <p>Protect photographs, recordings, posters, programs, and other cultural materials.</p>
+      </article>
+      <article class="pillar reveal">
+        <img src="assets/images/studio-session.jpg" alt="Musicians recording together in a studio">
+        <h3>Document</h3>
+        <p>Capture names, places, dates, memories, and oral histories while they can still be told.</p>
+      </article>
+      <article class="pillar reveal">
+        <img src="assets/images/young-artists.jpg" alt="Young Tejano artists performing on stage">
+        <h3>Educate</h3>
+        <p>Create resources that help students and communities understand Tejano cultural history.</p>
+      </article>
+      <article class="pillar reveal">
+        <img src="assets/images/modern-stage.jpg" alt="Modern Tejano musicians performing on stage">
+        <h3>Inspire</h3>
+        <p>Connect today’s artists and audiences to the legacy they carry forward.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section exhibit-section navy-section">
+  <div class="wrap">
+    <div class="section-heading reveal">
+      <p class="eyebrow">History Lives Here</p>
+      <h2>From personal archives to public memory.</h2>
+    </div>
+    <div class="exhibit-grid">
+      <figure class="exhibit-card tall reveal">
+        <img src="assets/images/jimmy-gonzalez.jpg" alt="Jimmy Gonzalez of Grupo Mazz smiling while playing guitar">
+        <figcaption><strong>Jimmy Gonzalez</strong><span>A candid performance photograph preserves presence, sound, and memory.</span></figcaption>
+      </figure>
+      <figure class="exhibit-card reveal">
+        <img src="assets/images/rainbow-poster.jpg" alt="Vintage Rainbow Ballroom Fresno Tejano concert poster">
+        <figcaption><strong>Posters & Flyers</strong><span>Printed materials tell the story of venues, promoters, cities, and audiences.</span></figcaption>
+      </figure>
+      <figure class="exhibit-card reveal">
+        <img src="assets/images/latin-breed-mission.jpg" alt="The Latin Breed posed at a historic mission">
+        <figcaption><strong>Artists & Places</strong><span>Each photograph connects musicians to a time, a place, and a community.</span></figcaption>
+      </figure>
+      <figure class="exhibit-card wide reveal">
+        <img src="assets/images/laura-canales.jpg" alt="Vintage promotional image of Laura Canales">
+        <figcaption><strong>Women of Tejano</strong><span>The archive will honor the artists, families, and leaders whose stories deserve to be preserved.</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section vision-preview">
+  <div class="wrap two-col">
+    <div class="copy reveal">
+      <p class="eyebrow">Our Vision</p>
+      <h2>Building the future home of Tejano history.</h2>
+      <p class="lead">Documentation Day is the first step toward a larger vision: a digital archive, oral history collection, educational programs, community events, and a permanent cultural home for Tejano music.</p>
+      <a class="btn btn-dark" href="vision.html">Read the Vision</a>
+    </div>
+    <div class="promise-card reveal">
+      <h3>Our Promise</h3>
+      <p>We believe every photograph deserves a name, every musician deserves a story, every family deserves to know its history, and every generation deserves access to its cultural heritage.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logos/primary-logo-transparent.png" alt="Viva Tejano Cultural Arts Foundation">
+      <p>Preserving Tejano history, one story at a time.</p>
+    </div>
+    <div class="footer-col">
+      <h3>Explore</h3>
+      <a href="about.html">About</a>
+      <a href="documentation-day.html">Documentation Day</a>
+      <a href="vision.html">Our Vision</a>
+      <a href="leadership.html">Leadership</a>
+    </div>
+    <div class="footer-col">
+      <h3>Connect</h3>
+      <a href="mailto:admin@vivatejano.org">admin@vivatejano.org</a>
+      <a href="https://www.facebook.com/vivatejanofoundation">Facebook</a>
+      <a href="https://www.instagram.com/vivatejanofoundation">Instagram</a>
+    </div>
+    <div class="footer-col">
+      <h3>Policies</h3>
+      <a href="photo-rights.html">Photo Rights</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+  </div>
+  <div class="legal">
+    <p>© 2026 Viva Tejano Cultural Arts Foundation. All Rights Reserved.</p>
+    <p>Viva Tejano Cultural Arts Foundation is a Texas nonprofit corporation currently seeking recognition as a tax-exempt organization under Section 501(c)(3) of the Internal Revenue Code. Donations are not currently being solicited as tax-deductible contributions.</p>
   </div>
 </footer>
+
 <script src="js/script.js"></script>
 </body>
 </html>
