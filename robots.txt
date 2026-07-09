@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vivatejano.org/sitemap.xml
