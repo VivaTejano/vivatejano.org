@@ -1,0 +1,23 @@
+VIVA TEJANO COMPLETE WEBSITE — SEPTEMBER 2026
+
+This is a complete replacement package for the GitHub repository.
+
+Recommended method:
+1. Open your local vivatejano.org repository folder.
+2. Keep the hidden .git folder.
+3. Delete the existing WEBSITE files/folders in the repository.
+4. Copy ALL contents of this package into the repository root.
+5. In GitHub Desktop, review the changes.
+6. Commit summary: Restore complete site and open Documentation Day #2 registration
+7. Commit to main.
+8. Push origin.
+
+This package includes:
+- Complete known-good website structure and archive images
+- Official white-background Viva Tejano logo
+- Finished Leadership page with all four founding board profiles and photos
+- Documentation Day #2 registration page
+- Sept. 20, 2026 event invitation
+- Homepage registration announcement
+- Google Form registration links
+- GitHub Pages CNAME for vivatejano.org
